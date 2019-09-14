@@ -1,0 +1,42 @@
+package prj4;
+
+class Student{
+	int roll;
+	String name;
+	String branch;
+	//int nCrse;
+	String grade;
+	
+}
+
+class Department{
+	
+	String dpt;
+	
+}
+
+class Course{
+	
+	String cName;
+	String type;
+	
+}
+
+class Registrar{
+	
+	Student[] sDetails = new Student[5];
+	Department sDept = new Department();
+	Course[] sCrse = new Course[4];
+	
+}
+
+public class Mis {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	Registrar reg = new Registrar();
+	
+	}
+
+}
+
